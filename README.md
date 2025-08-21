@@ -1,4 +1,5 @@
 # Auto Close Tag for ChatGPT
+> ⚠️ **Note:** This Chrome Extension is currently under review
 
 <p align="center">
   <img src="images/icon.png" alt="Auto Close Tag Icon" width="120" />
