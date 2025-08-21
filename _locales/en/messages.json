@@ -1,0 +1,8 @@
+{
+    "extDescription": {
+        "message": "This tool automatically completes </tag> while typing prompts. It is an assistant tool for structuring prompt creation."
+    },
+    "extLongDescription": {
+        "message": "This tool automatically completes </tag> while typing prompts. It is an assistant tool for structuring prompt creation.\n\n【What it does】\n\nXML-like section structures such as <instruction_spec> can improve GPT-5’s adherence to instructions.\nUsing sections helps add context and reduce ambiguity.\n\n【Key Features】\n\n・Auto-close for <tag>\n・Options (enabled by default): automatic line breaks between opening/closing tags\n・Options (enabled by default): capitalization of English tag names\n・Auto-inserts closing tags even when attributes like <tag id=\"\"> are present\n・Pair deletion: pressing Backspace removes the matching </tag>\n・Does not auto-complete for VOID tags (br/img, etc.) or while IME conversion is active\n\n【Changelog】\n\nv1.0.0: Auto-close, pair deletion, line breaks/capitalization options.\n\n【How to Use】\n\nInstall the extension and open ChatGPT\n\nType <tag> and the closing tag (</tag>) will be inserted automatically\n\nOn first use, auto line breaks and capitalization of tag text are applied (can be disabled in extension options)\n\n【Limitations】\n\n・Works only on ChatGPT’s unified composer\n・Does not work in the address bar, Chrome Web Store, or inside other extensions\n\n【References】\n\nOpenAI “GPT-5 for Coding Cheatsheet”\nRecommends structuring instructions with XML-like syntax.\nhttps://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf\n\nOpenAI “GPT-5 Prompting Guide”\nExplains structured prompting and insights from Cursor.\nhttps://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide"
+    }
+}

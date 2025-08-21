@@ -1,0 +1,8 @@
+{
+    "extDescription": {
+        "message": "プロンプト入力中に</tag>を自動補完するツールです。プロンプト作成の構造化のための補助ツールです."
+    },
+    "extLongDescription": {
+        "message": "プロンプト入力中に </tag> を自動補完するツールです。プロンプト作成の構造化のための補助ツールです。\n\n【何ができるか】\n\n<instruction_spec> のようなXML風のセクション構造は、GPT-5の指示遵守を高めることができます。\nセクションで文脈を増やし、曖昧さを減らすのに役立ちます。\n\n【主な機能】\n\n・<tag> のオートクローズ\n\n・オプション（初期で有効）：空行の自動挿入（開閉タグの間）\n\n・オプション（初期で有効）：英字タグ名の大文字化\n\n・属性 <tag id=\"\"> があっても、自動で閉じタグを挿入\n\n・ペア削除：Backspaceでセットの </tag> を同時削除\n\n・VOIDタグ（br/img等）やIME変換中は自動補完しない\n\n【更新情報】\n\nv1.0.0: 自動クローズ、ペア削除、空行／大文字化オプション。\n\n【使い方】\n\n1. 拡張をインストールしてChatGPTを開く\n2. <tag> を入力すると、自動で閉じタグ（</tag>）が挿入されます\n3. 初回で、自動改行、タグ内の文字を大文字に変換します（拡張機能のオプションでOFFにできます）\n\n【制限】\n\n・ChatGPTの統一コンポーザー上で動作\n\n・アドレスバーやChrome Web Store、他拡張内では動作しません\n\n【参考・引用】\n\nOpenAI「GPT-5 for Coding Cheatsheet」\n“XMLのような構文で指示を構造化”することを推奨。\nhttps://cdn.openai.com/API/docs/gpt-5-for-coding-cheatsheet.pdf\n\nOpenAI「GPT-5 Prompting Guide」\n構造化プロンプトとCursorの知見を解説。\nhttps://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide"
+    }
+}

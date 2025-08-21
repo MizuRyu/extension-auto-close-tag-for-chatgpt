@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Close Tag for ChatGPT",
+  "version": "0.1.0",
+  "description": "__MSG_extDescription__",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
